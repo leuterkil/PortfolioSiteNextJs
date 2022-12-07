@@ -27,8 +27,8 @@ const FirstSection:FC = ()=>{
           <div className='pos-rel' style={{height:'fit-content'}}>
             {/* <div className='pos-abs h-16-rem w-16-rem btn-circle bg-primary-200 blue-ball' style={{bottom:"-89px",left:"0",zIndex:'1'}}></div>
             <div className='pos-abs h-9-rem w-9-rem btn-circle bg-secondary-400 yellow-ball' style={{bottom:"-129px",left:"153px"}}></div> */}
-            <img   src={'/img/3dIllustrations/JS.png'} className="Js3D"/>
-            <img   src={'/img/3dIllustrations/keyboard.png'} className="kbrd3D"/>
+            <img   src={'/img/JS.png'} className="Js3D"/>
+            <img   src={'/img/keyboard.png'} className="kbrd3D"/>
             <div className='avatar w-15-rem h-15-rem h-sm-20-rem w-sm-20-rem w-lg-32-rem h-lg-32-rem'  >
               <Image objectFit='scale-down' src={'/img/Avatar_3D.png'} layout='fill'  quality="100" className="bg-primary btn-circle" style={{zIndex:'2'}}/>
             </div>
@@ -38,7 +38,7 @@ const FirstSection:FC = ()=>{
             <h1 className='text-white fs-lg-0 fs-2 '>
               <div>
                 <span>
-                Hello World I'm <span className='bg-primary-700'>Eleftherios Charissopoulos</span> and I am </span>
+                Hello World I&apos;m <span className='bg-primary-700'>Eleftherios Charissopoulos</span> and I am </span>
                 <span>
               <Typewriter
                 options={{

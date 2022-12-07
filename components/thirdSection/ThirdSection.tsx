@@ -36,7 +36,7 @@ export default function ThirdSection() {
       {/* sdas */}
        <ul className="timeline timeline-centered">
                 {workingExp.map(work=>(
-                                    <li className="timeline-item">
+                                    <li key={work.company} className="timeline-item">
                                     <div className="timeline-info">
                                         <span><Moment format='MMMM D, YYYY'>{work.from}</Moment></span>
                                     </div>

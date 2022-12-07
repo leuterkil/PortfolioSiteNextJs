@@ -20,7 +20,7 @@ export default function SecondSection() {
     <h1 className='text-center fs-1'>What I am capable to Do</h1>
     <div className='d-flex flex-wrap justify-space-evenly '>
       {capabilities.map((capability:any)=>(
-        <div className='col-lg-5 skill'>
+        <div key={capability.title} className='col-lg-5 skill'>
           <h2>{capability.title}</h2>
           <p className='w-90'>{capability.description}</p>
         </div>

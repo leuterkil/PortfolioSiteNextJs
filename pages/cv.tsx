@@ -31,7 +31,7 @@ const CV:NextPage = ()=> {
                 <span>@CharissopoulosL</span>
             </div>
         </div>
-        <p className='text-center text-link-grey italics fs-3 bold'>"The way to get started is to quit talking and begin doing – Walt Disney”"</p>
+        <p className='text-center text-link-grey italics fs-3 bold'>&quot;The way to get started is to quit talking and begin doing – Walt Disney&quot;</p>
 
         <Divider className='mt-6'><p className='fs-1 bold text-primary'>Summary</p></Divider>
         <div dangerouslySetInnerHTML={{__html:userData.summary}}/>
@@ -81,13 +81,13 @@ const CV:NextPage = ()=> {
             <p className='fs-3 bold'>Soft</p>
             <ul>
            {userData.personalInfo.skills.soft.map(soft=>(
-                <li>{soft}</li>
+                <li key={soft}>{soft}</li>
            ))}
            </ul>
             <p className='fs-3 bold'>Hard</p>
             <ul>
            {userData.personalInfo.skills.hard.map(hard=>(
-                <li> <span className='bold'>{hard.section}</span> : {hard.skills.join()} </li>
+                <li key={hard.section}> <span className='bold'>{hard.section}</span> : {hard.skills.join()} </li>
            ))}
            </ul>
         </div>

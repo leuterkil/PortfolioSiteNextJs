@@ -12,7 +12,7 @@ export default function FourthSection() {
     <div className='d-flex justify-space-around pt-3 flex-wrap'>
       
       {projects.map(project=>(
-      <div className='col-md-4'>
+      <div key={project.title} className='col-md-4'>
       <div className='d-flex justify-center pos-rel project'>
           <Image objectFit='cover' src={project.img}  className='btn-sharp project-img' style={{boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px"}}  width="300px" height="300px"/>
           <div className='project-det pos-abs w-60 bottom-0 text-white' style={{opacity:0}}>
