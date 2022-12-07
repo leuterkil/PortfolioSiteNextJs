@@ -9,9 +9,19 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@lottiefiles/react-lottie-player": "^3.4.7",
+    "@mui/icons-material": "^5.10.9",
+    "@mui/material": "^5.10.9",
+    "gsap": "^3.11.3",
+    "moment": "^2.29.4",
     "next": "12.3.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-moment": "^1.1.2",
+    "sass": "^1.55.0",
+    "typewriter-effect": "^2.19.0"
   },
   "devDependencies": {
     "@types/node": "18.8.4",

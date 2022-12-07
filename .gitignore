@@ -34,3 +34,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+.vercel
+public/img/3dIllustrations/JS.png
+public/img/3dIllustrations/keyboard.png
