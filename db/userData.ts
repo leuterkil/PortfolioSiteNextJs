@@ -38,20 +38,19 @@ const userData = {
         capabilities:[
             {
                 title:"Development 👩🏻‍💻",
-                description:`I develop web apps all the time cause programming is my passion. 
-                My first goal is to make an app that makes the averages person life easier and more smart.`
+                description:`As a passionate programmer, I am dedicated to the development of web applications that simplify and enhance the daily lives of the average person. My ultimate goal is to create intelligent and user-friendly solutions that make a positive impact on the world. I am constantly seeking new opportunities to improve my skills and bring innovative ideas to life through web development.`
             },
             {
                 title:"Design 🎨",
-                description:"I love web design so much as programming. I currently studing more efficient design libraries such as gsap and aos to make more jaw dropping websites and more beautiful to your eyes."
+                description:"I love web design as much as programming and am constantly studying new design libraries, such as GSAP and AOS, to create visually stunning websites. My goal is to create beautiful and efficient websites that enhance the user experience."
             },
             {
                 title:"Game Development 🎮",
-                description:"Video games are my life ! I play since 2004 until now and I will play games for the rest of my life. Because of that I like to make my own games on Unreal Engine and imagine my world through some graphics"
+                description:"As a lifelong gamer, I have a deep passion for video games. I have been playing since 2004 and plan to continue for the rest of my life. Because of this passion, I enjoy creating my own games using Unreal Engine, where I can bring my imagination to life through stunning graphics and immersive gameplay. I believe that video games have the power to captivate and inspire, and I strive to bring that same level of excitement and inspiration to my own creations."
             },
             {
                 title:"Learn New Things 📚",
-                description:"I like to discover the whole world but in my free time I love to study new technologies and programming languages that can make me a better programmer than I am"
+                description:"I love traveling and exploring new technologies. In my free time, I study programming languages to improve my skills as a developer. Both passions make me a well-rounded person."
             },
         ],
         skills:{
