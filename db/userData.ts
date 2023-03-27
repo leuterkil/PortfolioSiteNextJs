@@ -190,6 +190,12 @@ const userData = {
             img:'/img/runtimeLogo.jpg',
             link:'https://runtime-blog.tk'
         },
+        {
+            title:'MyGrowGreens.gr',
+            description:'An ecommerce site made in wordpress and woocommerce',
+            img:'/img/myGrowLogo.png',
+            link:'https://mygrowgreens.gr'
+        },
     ],
     courses:[
         {
@@ -207,7 +213,24 @@ const userData = {
             description:'This course teached me how to use SCRUM and agile methodology to achieve goals and tasks for projects',
             provider:'Linkedin Learning'
 
-        }
+        },
+        {
+            title:'Intro to Machine Learning',
+            description:'The aim of this course was to learn basic machine learning algorithms such as handling Random Forests, Underfitting and overfitting',
+            provider:'Kaggle'
+
+        },
+        {
+            title:'Intro to Deep Learning',
+            description:'The main concept of this course was to learn the basics of deep learning and its usage',
+            provider:'Kaggle'
+
+        },
+        {
+            title:'Intermediate Machine Learning',
+            description:'The aim of this course was to learn advanced machine learning algorithms such as handling missing values, pipelines, XGBoost and Data Leakage',
+            provider:'Kaggle'
+        },
     ]
 }
 
