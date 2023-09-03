@@ -13,7 +13,7 @@ const userData = {
     specifically I study Strapi CMS, Graph QL and Gatsby.js.</p>`,
     personalInfo:{
         location:{
-            postCode:'61100',
+            postCode:'54641',
             city:'Thessaloniki',
             country:'Greece'
         },
@@ -38,15 +38,15 @@ const userData = {
         capabilities:[
             {
                 title:"Development 👩🏻‍💻",
-                description:`As a passionate programmer, I am dedicated to the development of web applications that simplify and enhance the daily lives of the average person. My ultimate goal is to create intelligent and user-friendly solutions that make a positive impact on the world. I am constantly seeking new opportunities to improve my skills and bring innovative ideas to life through web development.`
+                description:`As a passionate programmer, my goal is to develop intelligent and user-friendly web applications that make a positive impact on the world by simplifying and enhancing daily lives. I constantly seek new opportunities to bring innovative ideas to life through web development.`
             },
             {
                 title:"Design 🎨",
                 description:"I love web design as much as programming and am constantly studying new design libraries, such as GSAP and AOS, to create visually stunning websites. My goal is to create beautiful and efficient websites that enhance the user experience."
             },
             {
-                title:"Game Development 🎮",
-                description:"As a lifelong gamer, I have a deep passion for video games. I have been playing since 2004 and plan to continue for the rest of my life. Because of this passion, I enjoy creating my own games using Unreal Engine, where I can bring my imagination to life through stunning graphics and immersive gameplay. I believe that video games have the power to captivate and inspire, and I strive to bring that same level of excitement and inspiration to my own creations."
+                title:"Game Dev 🎮",
+                description:"As a lifelong gamer, I am passionate about video games and enjoy creating my own games using Unreal Engine to bring my imagination to life through stunning graphics and immersive gameplay, with the aim of inspiring and captivating players."
             },
             {
                 title:"Learn New Things 📚",
@@ -64,7 +64,7 @@ const userData = {
                 },
                 {
                     section:'Front-End Technologies',
-                    skills:['React JS','SCSS','Next.js', 'Gatsby.js', 'GraphQL', 'Angular','Angular Universal','EJS','vanilla JS','GSAP','Material UI']
+                    skills:['React JS','SCSS','Next.js','Qwik', 'Gatsby.js', 'GraphQL', 'Angular','Angular Universal','EJS','vanilla JS','GSAP','Material UI']
                 },
                 {
                     section:'Back-End Technologies',
@@ -145,7 +145,7 @@ const userData = {
             site:'https://e-band.gr'
         },
         {
-            jobRole:'Front-end Developer',
+            jobRole:'Full Stack Developer',
             company:'Keyvoto.com',
             from:'20220511',
             to : 'Present',

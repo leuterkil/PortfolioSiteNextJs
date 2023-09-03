@@ -34,8 +34,9 @@ const FirstSection:FC = ()=>{
             </div>
           </div>
         </div>
-        <div className='text-center pos-rel w-100 col-lg-6'>
-            <h1 className='text-white fs-lg-0 fs-2 '>
+        <div className='text-center pos-rel w-100 col-lg-6 h-100 d-flex align-items-center'>
+        <div>
+          <h1 className='text-white fs-lg-0 fs-2 '>
               <div>
                 <span>
                 Hello World I&apos;m <span className='bg-primary-700'>Eleftherios Charissopoulos</span> and I am </span>
@@ -53,15 +54,16 @@ const FirstSection:FC = ()=>{
                   Based in city of {location.city}, {location.country}
                 </div>
                 </div>
-        </h1>
-        <Button variant="contained" href="mailto:echarissopoulos@gmail.com">Contact</Button>
-        <Divider className='my-3 text-white'>Or Reach Me</Divider>
-        <div className='d-flex gap-15 justify-center  text-white'>
+          </h1>
+          <Button variant="contained" href="mailto:echarissopoulos@gmail.com">Contact</Button>
+          <Divider className='my-3 text-white'>Or Reach Me</Divider>
+          <div className='d-flex gap-15 justify-center  text-white'>
                 <Link href="https://www.linkedin.com/in/eleftherios-charissopoulos/"><LinkedInIcon fontSize='large'/></Link>
                 <Link href={'https://github.com/leuterkil'}><GitHubIcon fontSize='large'/></Link>
                 <Link href={'https://twitter.com/CharissopoulosL'}><TwitterIcon fontSize='large'/></Link>
-                </div>
-                <Paper className='text-center pos-abs px-4 py-3 w-40 d-none d-lg-block' style={{bottom:'-208px',right:"30%",zIndex:'3'}} elevation={3}>
+          </div>
+          </div>
+                <Paper className='text-center pos-abs px-4 py-3 w-40 d-none d-lg-block' style={{bottom:'6px',right:"30%",zIndex:'3'}} elevation={3}>
             {currentPosition.logo && <div style={{background:`url(${currentPosition.logoKeyvoto || currentPosition.logo})`,width:'50px',height:'50px',backgroundPosition:'center',backgroundSize:'cover'}} className="btn-circle mx-auto"></div>}
             <div className="fs-4 bold">Current Position</div>
             <div className='fs-6 text-link-grey-400'>{currentPosition.jobRole} @ {currentPosition.company}</div>

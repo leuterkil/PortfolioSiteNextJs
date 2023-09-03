@@ -179,7 +179,7 @@ let ctx = gsap.context(() => {
       </div>
     </div>
     {/* Work experience */}
-    <div id='thirdSec' className=' h-lg-100-vh section'>
+    <div id='thirdSec' className=' h-lg-100-vh section pos-rel'>
      
       <div className='container w-80'>
 
