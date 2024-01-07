@@ -2,15 +2,14 @@ const userData = {
     UI:{
         typewriterWords:['Developer','Web Designer','JAM Stack Enthusiast','Amateur Musician']
     },
-    summary:`<p>My name is Lefteris Charissopoulos, I am from Kilkis, Greece and my job is Web Developer. My goal is to learn the
+    summary:`<p>My name is Lefteris Charissopoulos, I am from Thessaloniki, Greece and my job is Web Developer. My goal is to learn the
     fundamentals as well as mastering the web development and of course make applications that contribute to the
     better quality of life.</p>
     <p>Another technology that I’m studying to is Game Development at Unreal Engines Blueprints. As lover of video games
     my dream is to develop my own game for amusing other people playing it.</p>
     <p>One thing that characterizes me is my team spirit as I love working in cooperation with other developers so that I
     can create better programs and learn more technologies in the field of information technology.</p>
-    <p>I’m currently studying the JAMStack Development which uses modern technologies for making web apps. More
-    specifically I study Strapi CMS, Graph QL and Gatsby.js.</p>`,
+    <p>I’m currently studying GoLang in order to expand my knowledge in programming performance.</p>`,
     personalInfo:{
         location:{
             postCode:'54641',
@@ -148,7 +147,7 @@ const userData = {
             jobRole:'Full Stack Developer',
             company:'Keyvoto.com',
             from:'20220511',
-            to : 'Present',
+            to : '20231113',
             location:'Athens,Greece (Remote)',
             jobDescription:`
             Develop keyvoto.com web app and frontpage with a team of many skilled developers. The program written in angular js and angular material for styling. Also wrote some scripts in nest.js for communicate between back(C#) and  front end(Angular 2).
@@ -157,6 +156,18 @@ const userData = {
             logo:'/img/keyvotoLogo_alt.jpg',
             logoKeyvoto:'/img/keyvotoLogo.jpg',
             site:'https://keyvoto.com'
+        },
+        {
+            jobRole:'Front End Developer',
+            company:'Schoox',
+            from:'20231113',
+            to : 'Present',
+            location:'Thessaloniki, Greece',
+            jobDescription:`
+            I was responsible for the schoox platforms front end part with many skilled developers by my side. My main task was to develop new features as well as solving bugs requested by the testing team. As my personal development I learned how to implement a SOLID Architechture in an angular 2 application as well as working with layers.
+            `,
+            logo:'/img/schoox_logo.png',
+            site:'https://schoox.com'
         }
     ],
     projects:[
